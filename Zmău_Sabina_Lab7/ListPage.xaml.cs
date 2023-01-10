@@ -1,12 +1,15 @@
 using Zmău_Sabina_Lab7.Models;
+
 namespace Zmău_Sabina_Lab7;
 
 public partial class ListPage : ContentPage
 {
+
     public ListPage()
     {
         InitializeComponent();
     }
+
 
     async void OnSaveButtonClicked(object sender, EventArgs e)
     {
