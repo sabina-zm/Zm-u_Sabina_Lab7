@@ -63,6 +63,10 @@ public class ShoppingListDatabase
     {
         return _database.DeleteAsync(slist);
     }
+    public Task<int> DeleteListItemAsync(ListProduct lproduct)
+    {
+        return _database.DeleteAsync(lproduct);
+    }
     public Task<int> SaveListProductAsync(ListProduct listp)
     {
         if (listp.ID != 0)
